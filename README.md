@@ -48,10 +48,35 @@ It focuses on:
 ```
 Verilog-Fundamentals/
 │
-├── Verilog_basics/
-│   ├── and_gate/
-│   ├── or_gate/
-│   ├── mux/        (coming soon)
+├── Verilog_Basics/
+│
+│   ├── Gates/
+│   │   ├── and_gate/
+│   │   │   ├── and_gate.v
+│   │   │   ├── tb_and_gate.v
+│   │   │   └── dump.vcd
+│   │   │
+│   │   ├── or_gate/
+│   │   ├── xor_gate/
+│   │   └── xnor_gate/
+│
+│   ├── Combinational/
+│   │   ├── mux_2to1/
+│   │   │   ├── mux_2to1.v
+│   │   │   ├── tb_mux_2to1.v
+│   │   │   └── dump.vcd
+│   │   │
+│   │   ├── full_adder/
+│   │   └── decoder_2to4/
+│
+│   └── Sequential/
+│       ├── d_flip_flop/
+│       │   ├── d_ff.v
+│       │   ├── tb_d_ff.v
+│       │   └── dump.vcd
+│       │
+│       ├── jk_flip_flop/
+│       └── counter/
 │
 └── README.md
 ```
