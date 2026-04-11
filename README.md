@@ -166,4 +166,4 @@ If you find this helpful:
 
 > “Real learning happens when you debug your own mistakes.”
 
----
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=11998e&height=80&section=footer&fontSize=16&fontColor=0f2027"/> </p>
