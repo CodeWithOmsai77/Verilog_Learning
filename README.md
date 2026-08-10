@@ -1,4 +1,4 @@
-# 🚀 Verilog Fundamentals
+# 🚀 Verilog Learning
 
 [![Language](https://img.shields.io/badge/Language-Verilog-24b495.svg)](https://en.wikipedia.org/wiki/Verilog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
