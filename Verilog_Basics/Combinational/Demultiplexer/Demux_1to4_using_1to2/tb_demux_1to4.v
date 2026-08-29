@@ -10,10 +10,9 @@ demux_1to4 DUT (
 );
 
 integer i;
-
-initial begin 
+initial begin
     $dumpfile("dump.vcd");
-    $dumpvars(0, tb_demux_1to4);
+    $dumpvars(0,tb_demux_1to4);
 
     I = 0;
     for (i = 0 ; i < 4 ; i++) begin
@@ -22,11 +21,10 @@ initial begin
     end
 
     I = 1;
-    for (i = 0 ; i < 4 ; i++) begin
+    for (i = 0 ; i < 4 ; i++)begin
         S = i;
         #10;
     end
-
     $finish;
 end
 endmodule
