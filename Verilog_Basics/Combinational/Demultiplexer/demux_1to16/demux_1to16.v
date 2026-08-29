@@ -1,4 +1,4 @@
-module demux_16to1 (
+module demux_1to16 (
     input I,
     input [3:0] S,
     output [15:0] Y

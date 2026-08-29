@@ -1,9 +1,9 @@
-module tb_demux_16to1;
+module tb_demux_1to16;
 reg I;
 reg [3:0] S;
 wire [15:0] Y;
 
-demux_16to1 DUT (
+demux_1to16 DUT (
     .I(I),
     .S(S),
     .Y(Y)
@@ -12,7 +12,7 @@ demux_16to1 DUT (
 integer i;
 initial begin
     $dumpfile("dump.vcd");
-    $dumpvars(0, tb_demux_16to1);
+    $dumpvars(0, tb_demux_1to16);
 
     I = 0;
     for (i = 0 ; i < 16 ; i++) begin 

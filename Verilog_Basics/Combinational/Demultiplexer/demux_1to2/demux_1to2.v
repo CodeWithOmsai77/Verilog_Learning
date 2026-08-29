@@ -1,4 +1,4 @@
-module demux_2to1 (
+module demux_1to2 (
     input D,
     input S,
     output [1:0] Y
