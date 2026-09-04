@@ -1,5 +1,5 @@
 module tb_Decoder_2to4;
-reg [1:0] I;
+reg [1:0] I
 wire [3:0] Y;
 
 reg [3:0] expected;
